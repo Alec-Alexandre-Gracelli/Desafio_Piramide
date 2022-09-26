@@ -24,7 +24,7 @@ internal class Program
                 }
 
                 linhas--;
-                cerca++;
+                cerca = cerca + 2;
                 Console.WriteLine();
             }
         else
