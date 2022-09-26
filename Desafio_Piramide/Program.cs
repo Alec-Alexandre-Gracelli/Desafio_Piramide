@@ -1,12 +1,13 @@
-﻿namespace Desafio_Piramide;
+﻿namespace DesafioPiramide;
 
 internal class Program
 {
     static void Main(string[] args)
     {
-        int linhas, cerca = 1, contador;
+        int cerca = 1;
+        int contador;
         Console.WriteLine("Digite um valor: ");
-        linhas = Convert.ToInt32(Console.ReadLine());
+        int linhas = Convert.ToInt32(Console.ReadLine());
         contador = linhas;
 
         if (contador > 3 && contador <= 8)
