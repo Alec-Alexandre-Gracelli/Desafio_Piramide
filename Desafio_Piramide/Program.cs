@@ -13,7 +13,7 @@ internal class Program
         if (contador > 3 && contador <= 8)
             for (int i = 0; i < contador; i++)
             {
-                for (int j = 1; j <= linhas; j++)
+                for (int j = 2; j <= linhas; j++)
                 {
                     Console.Write(" ");
                 }
